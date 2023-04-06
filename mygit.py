@@ -6,4 +6,4 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 st.header("kit")
-st.image("./git/pic/ocean-3605547__480.jpg")
+st.image("./mygit/pic/ocean-3605547__480.jpg")
