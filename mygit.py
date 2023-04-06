@@ -62,11 +62,11 @@ if st.button("ทำนายผล"):
    st.write(Knn_model.predict(x_input))
 
    out=Knn_model.predict(x_input)
-
-    if out[0]=="Setosa":
-       st.image("./pic/Irissetosa.jpg")
-    else:
-        st.writ("xxxx")
+    
+    if out[0] == 'Setosa':
+        st.image("./pic/setosa.jpg")
+    else:       
+        st.writ('xxx')   
 
    st.button("ไม่แสดงข้อมูล")
 else:
