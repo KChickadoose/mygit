@@ -61,6 +61,13 @@ if st.button("ทำนายผล"):
    x_input = np.array([[5.1, 3.5, 1.4, 0.2]])
    st.write(Knn_model.predict(x_input))
 
+   out=Knn_model.predict(x_input)
+
+   if out[0]=="Setosa":
+       st.image("./pic/Irissetosa.jpg")
+    else:
+        
+
    st.button("ไม่แสดงข้อมูล")
 else:
     st.write("ไม่แสดงข้อมูล")
